@@ -1,0 +1,128 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "BattleTank_Proj (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_Proj Win64 Debug Build",
+			"program": "D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\Binaries\\Win64\\BattleTank_Proj-Win64-Debug.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_Proj (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_Proj Win64 DebugGame Build",
+			"program": "D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\Binaries\\Win64\\BattleTank_Proj-Win64-DebugGame.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_Proj (Development)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_Proj Win64 Development Build",
+			"program": "D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\Binaries\\Win64\\BattleTank_Proj.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_Proj (Shipping)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_Proj Win64 Shipping Build",
+			"program": "D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\Binaries\\Win64\\BattleTank_Proj-Win64-Shipping.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_Proj (Test)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_Proj Win64 Test Build",
+			"program": "D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\Binaries\\Win64\\BattleTank_Proj-Win64-Test.exe",
+			"args": [
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_ProjEditor (Debug)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_ProjEditor Win64 Debug Build",
+			"program": "D:\\UE4_Engines\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor-Win64-Debug.exe",
+			"args": [
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject"
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_ProjEditor (DebugGame)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_ProjEditor Win64 DebugGame Build",
+			"program": "D:\\UE4_Engines\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject"
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "BattleTank_ProjEditor (Development)",
+			"request": "launch",
+			"preLaunchTask": "BattleTank_ProjEditor Win64 Development Build",
+			"program": "D:\\UE4_Engines\\UE_4.22\\Engine\\Binaries\\Win64\\UE4Editor.exe",
+			"args": [
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject"
+			],
+			"cwd": "D:\\UE4_Engines\\UE_4.22",
+			"stopAtEntry": false,
+			"externalConsole": true,
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE4_Engines\\UE_4.22\\Engine\\Extras\\VisualStudioDebugging\\UE4.natvis"
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "clr",
+			"request": "launch",
+			"program": "D:\\UE4_Engines\\UE_4.22\\Engine\\Binaries\\DotNET\\UnrealBuildTool.exe",
+			"console": "externalTerminal",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=\"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject\"",
+				"-game",
+				"-engine"
+			],
+			"internalConsoleOptions": "openOnSessionStart",
+			"cwd": "D:\\UE4_Engines\\UE_4.22"
+		}
+	]
+}

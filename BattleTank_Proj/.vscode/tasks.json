@@ -1,0 +1,977 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "BattleTank_Proj Win32 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win32 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win32 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win32 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win32 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win32 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win32 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win32",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"Win64",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj HTML5 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj HTML5 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj HTML5 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj HTML5 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Shipping",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_Proj HTML5 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_Proj HTML5 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_Proj",
+				"HTML5",
+				"Test",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_ProjEditor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Debug",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_ProjEditor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"DebugGame",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"BattleTank_ProjEditor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		},
+		{
+			"label": "BattleTank_ProjEditor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"BattleTank_ProjEditor",
+				"Win64",
+				"Development",
+				"D:\\Sanjay\\Udemy\\Ue4-C++\\OriginalContent\\Ue4_Projects\\BattleTank\\BattleTank_Proj\\BattleTank_Proj.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "D:\\UE4_Engines\\UE_4.22"
+			}
+		}
+	]
+}
